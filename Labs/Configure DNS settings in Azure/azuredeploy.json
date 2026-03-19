@@ -28,7 +28,7 @@
       },
       "vmSize": {
         "type": "string",
-        "defaultValue": "Standard_B1s",
+        "defaultValue": "Standard_DC1s_v3",
         "metadata": {
           "description": "Virtual machine size"
         }
@@ -82,7 +82,7 @@
                     "imageReference": {
                         "publisher": "MicrosoftWindowsServer",
                         "offer": "WindowsServer",
-                        "sku": "2019-Datacenter",
+                        "sku": "2019-datacenter-gensecond",
                         "version": "latest"
                     },
                     "osDisk": {
@@ -181,7 +181,7 @@
                     "imageReference": {
                         "publisher": "MicrosoftWindowsServer",
                         "offer": "WindowsServer",
-                        "sku": "2019-Datacenter",
+                        "sku": "2019-datacenter-gensecond",
                         "version": "latest"
                     },
                     "osDisk": {
