@@ -1,4 +1,4 @@
-# Introduction to Azure Virtual Networks
+# Design and implement a Virtual Network in Azure
 
 ## Overview
 
