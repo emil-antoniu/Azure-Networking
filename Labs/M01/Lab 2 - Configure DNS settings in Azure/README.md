@@ -61,6 +61,14 @@ Useful command for finding available VM sizes.
 az vm list-skus --location eastus --output table  
 ```
 
+Deploy resources based on deployment files.
+
+```PowerShell
+$RGName = "ContosoResourceGroup"
+   
+New-AzResourceGroupDeployment -ResourceGroupName $RGName -TemplateFile azuredeploy.json -TemplateParameterFile azuredeploy.parameters.json
+```
+
 Stopping the VMs.
 
 ```PowerShell

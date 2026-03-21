@@ -52,7 +52,7 @@ Test RDP connection.
 Test-NetConnection IP -port 3389
 ```
 
-Create resource based on deployment files.
+Deploy resource based on deployment files.
 
 ```PowerShell
 $RGName = "ContosoResourceGroup"
